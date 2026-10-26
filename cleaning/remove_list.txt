@@ -1,0 +1,2 @@
+# Manual additions: one term per line. Every occurrence in a cleaned text field is replaced with [REMOVED],
+# even when it overlaps a keep-list term. Lines starting with # are ignored.

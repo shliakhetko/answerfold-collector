@@ -1,0 +1,36 @@
+intent_id,paraphrase_id,prompt_text,branded
+1,1,best AI receptionist,0
+1,2,find me the best AI voice agent for automating calls,0
+1,3,"is there any way to stop missing calls for our company, what tool should we use?",0
+1,4,are there any virtual receptionists out there?,0
+1,5,"our team keeps missing client calls, looking for an AI phone answering service",0
+2,1,best AI receptionist for dental offices,0
+2,2,find me the best AI voice agent for automating calls for a dental practice,0
+2,3,"is there any way to stop missing calls for our dental practice, what tool should we use?",0
+2,4,are there any virtual receptionists for a dentist office out there?,0
+2,5,"our team keeps missing patient calls at our dental practice, looking for an AI phone answering service",0
+3,1,best AI receptionist for law firms,0
+3,2,find me the best AI voice agent for automating calls for a law firm,0
+3,3,"is there any way to stop missing calls for our law firm, what tool should we use?",0
+3,4,are there any virtual receptionists for a law firm out there?,0
+3,5,"our team keeps missing client calls at our law firm, looking for an AI phone answering service",0
+4,1,best AI receptionist for HVAC companies,0
+4,2,find me the best AI voice agent for automating calls for a plumbing company,0
+4,3,"is there any way to stop missing calls for our HVAC company, what tool should we use?",0
+4,4,are there any virtual receptionists for a plumbing company out there?,0
+4,5,"our team keeps missing customer calls at our HVAC company, looking for an AI phone answering service",0
+5,1,how much does an AI receptionist cost,0
+5,2,"do AI answering services charge per call, per minute or a flat monthly fee",0
+5,3,is an AI receptionist worth paying for or is voicemail fine,0
+5,4,are there any cheap virtual receptionists out there?,0
+5,5,"our team keeps missing client calls, looking for an AI phone answering service, what should I expect to pay?",0
+6,1,best AI receptionist for appointment booking,0
+6,2,AI phone service that schedules appointments for us,0
+6,3,something to pick up calls and book appointments while we are with customers,0
+6,4,are there any AI receptionists that book appointments for you?,0
+6,5,AI receptionist that syncs with our booking system,0
+7,1,what are some alternatives to Smith.ai,1
+7,2,what are some alternatives to Goodcall,1
+7,3,what are some alternatives to Retell AI,1
+7,4,what are some alternatives to Vapi AI,1
+7,5,what are some alternatives to Synthflow,1

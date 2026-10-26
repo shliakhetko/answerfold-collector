@@ -1,0 +1,5 @@
+engines:
+  - engine: openai_chatgpt
+    model_requested: gpt-4o-search-preview
+reps_per_day: 1
+days: 1

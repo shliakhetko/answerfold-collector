@@ -1,0 +1,15 @@
+# The settings the study ran with (copied from the study's config/experiment.yaml by the
+# publish build). Pinned model ids must be re-verified the morning a new collection begins
+# (INSTRUMENT.md section 6). API keys go in .env (see .env.example), never here.
+engines:
+  - engine: openai_chatgpt
+    model_requested: gpt-5.6-luna
+  - engine: google_gemini
+    model_requested: gemini-3.6-flash
+  - engine: anthropic_claude
+    model_requested: claude-sonnet-5
+  - engine: google_ai_mode
+    model_requested: ""  # no model concept for this cell; adapter ignores this value
+
+reps_per_day: 3
+days: 7

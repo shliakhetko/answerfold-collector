@@ -1,0 +1,7 @@
+engines:
+  - engine: openai_chatgpt
+    model_requested: gpt-4o-search-preview
+  - engine: anthropic_claude
+    model_requested: claude-3-5-sonnet-latest
+reps_per_day: 1
+days: 1

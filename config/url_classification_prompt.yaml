@@ -1,0 +1,28 @@
+# FROZEN A5 URL-classification prompt -- Post-Collection Coding Pipeline
+# Spec, stage A5. Frozen 2026-09-12, published here as a close-out
+# assertion of a prompt that provably never changed across its whole git
+# history (analysis/coding/a5_url_classification.py, commits 811cde9
+# through eccc306) and predates the one real classification run (batch
+# fetched into the cache 2026-09-05 11:04 UTC). PROMPT_VERSION in that
+# module stays "v0-unfrozen" -- renaming it would invalidate all 3,966
+# cache keys and force a paid re-run for zero benefit. Any future wording
+# change needs a new frozen_date, a new sha256 below, a bumped
+# PROMPT_VERSION, and a new ambiguity-ledger entry
+# (scripts/aux/update_ambiguity_ledger.py) -- never a silent edit of this
+# file's `prompt` block.
+
+version: 1
+frozen_date: 2026-09-12
+prompt_version_constant: "v0-unfrozen"  # analysis/coding/a5_url_classification.py PROMPT_VERSION -- documentation only, not read by code
+sha256: "5da5b9b9bca02a0897008a7be3dae98f1c1b568efa2232cc6afb6a13778c8578"
+
+prompt: |
+  You are classifying ONE cited URL from an AI search engine's answer about AI receptionist / AI voice agent products.
+
+  URL: {url_normalized}
+  TITLE (as cited): {title}
+
+  Return one JSON object with exactly these keys and nothing else -- no markdown code fence, no commentary:
+  - "url_class": one of "vendor page", "vendor listicle", "review site", "forum", "news", "other".
+  - "publisher_is_in_category": true if the site publishing this URL is itself a company selling an AI receptionist / AI voice agent product (regardless of url_class label), else false.
+  - "classifier_confidence": your confidence in this classification, a number from 0.0 to 1.0.
